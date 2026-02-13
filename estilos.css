@@ -10,3 +10,22 @@ body {
     color: white;
     line-height: 1.6;
 }
+
+/* Encabezado principal */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9)),
+                url('https://wallpapercave.com/wp/wp1907877.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,0.6);
+}
