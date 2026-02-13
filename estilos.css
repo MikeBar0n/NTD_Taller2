@@ -29,3 +29,32 @@ body {
     padding: 20px 50px;
     background-color: rgba(0,0,0,0.6);
 }
+/* Contenido principal */
+.hero-content {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+.hero-content h1 {
+    font-size: 70px;
+    color: #e50914;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #b20710;
+    transform: scale(1.05);
+}
