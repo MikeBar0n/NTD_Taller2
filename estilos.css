@@ -58,3 +58,22 @@ body {
     background-color: #b20710;
     transform: scale(1.05);
 }
+/* Secciones */
+.section {
+    padding: 80px 10%;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #e50914;
+}
+
+.section ul {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.dark {
+    background-color: #1a1a1a;
+}
